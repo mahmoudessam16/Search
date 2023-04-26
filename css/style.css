@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header #links {
+  margin-right: 30px;
+}
+#links a {
+  text-decoration: none;
+  font-size: smaller;
+  color: rgba(0, 0, 0, 0.87);
+  margin-left: 30px;
+}
+#links a:hover {
+  text-decoration: underline;
+}
+main {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main img { 
+  margin-top: -100px;
+}
+main input[type="text"] {
+  width: 500px;
+  padding: 10px 10px 10px 20px;
+  border-radius: 14px;
+  border: 1px solid #eee;
+  font-size: 18px;
+}
+main input[type="text"]:focus {
+  outline: none;
+}
+main #buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #buttons input {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  letter-spacing: 1px;
+}
+
+/* Advanced Search Page */
+
+.advanced-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: small;
+}
+.advanced-header a {
+  text-decoration: none;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.advanced-header a:hover {
+  text-decoration: underline;
+}
+.google-image-little {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.google-image-little img {
+  width: 70px;
+  height: auto;
+}
+.advanced-sub-header {
+  border-bottom: 1px solid #ebebeb;
+}
+.advanced-sub-header h3 {
+  color: #d93025;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  margin-top: 15px;
+  font-weight: normal;
+}
+.input-one {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+.input-one .textDes {
+  width: 200px;
+  font-size: 15px;
+}
+.inputOne .input-field {
+  min-width: 167px;
+  width: 50%;
+}
+.input-one .input-field input {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 100%;
+}
+.input-one .toDo {
+  width: 32%;
+  min-width: 160px;
+  color: #555;
+  font-size: 15px;
+  padding-left: 30px;
+}
+span {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+}
+.input-one .button {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.button input {
+  background-color: #4d90fe;
+  background-image: linear-gradient(top, #4d90fe, #4787ed);
+  color: white;
+  height: 30px;
+  min-width: 120px;
+  border: 1px solid #3079ed;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+}
